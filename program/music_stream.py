@@ -40,7 +40,7 @@ from driver.utils import bash, remove_if_exists, from_tg_get_msg
 from driver.database.dbqueue import add_active_chat, remove_active_chat, music_on
 from driver.decorators import require_admin, check_blacklist
 
-from config import BOT_TOKEN, UPDATES_CHANNE, IMG_2, IMG_5, IMG_1,BOT_TOKEN, 
+from config import BOT_TOKEN, UPDATES_CHANNE, IMG_2, IMG_5, IMG_1,
 from asyncio.exceptions import TimeoutError
 from youtubesearchpython import VideosSearch
 
