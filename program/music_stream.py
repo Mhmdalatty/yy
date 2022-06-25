@@ -40,7 +40,7 @@ from driver.utils import bash, remove_if_exists, from_tg_get_msg
 from driver.database.dbqueue import add_active_chat, remove_active_chat, music_on
 from driver.decorators import require_admin, check_blacklist
 
-from config import BOT_USERNAME, IMG_1, IMG_2, IMG_5, BOT_TOKEN, UPDATES_CHANNE,
+from config import BOT_TOKEN, UPDATES_CHANNE, IMG_2, IMG_5, IMG_1,BOT_TOKEN, 
 from asyncio.exceptions import TimeoutError
 from youtubesearchpython import VideosSearch
 
@@ -182,7 +182,7 @@ async def play_tg_file(c: Client, m: Message, replied: Message = None, link: str
         )
 
 
-@Client.on_message(command(["شغل", "تشغيل", "/play", f"ت"]) & other_filters)
+@Client.on_message(command(["شغل", "تشغيل", "/play", f"play@{BOT_USERNAME}"]) & other_filters)
 @check_blacklist()
 @require_admin(permissions=["can_manage_voice_chats", "can_delete_messages", "can_invite_users"], self=True)
 async def audio_stream(c: Client, m: Message):
