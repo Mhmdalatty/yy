@@ -11,9 +11,9 @@
         "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/jepthon",
-    "repository": "https://github.com/lMl10l/lMl10l",
-    "success_url": "https://t.me/jepthon",
+    "website": "https://t.me/xl444",
+    "repository": "https://github.com/muntazer995/RR8R9",
+    "success_url": "https://t.me/rr8r9",
     "env": {
      "API_ID": {
             "description": "ايبي ايدي",
@@ -38,9 +38,9 @@
             "required": true
         },
         "MONGODB_URL": {
-            "description": "لا تغيرها ابد",
+            "description": "اكتب قاعدة البيانات",
             "required": true,
-            "value": "mongodb+srv://hussein87:Hussein87@cluster0.wynpz.mongodb.net/?retryWrites=true&w=majority"
+            "value": "mongodb+srv://vro:vro@cluster0.eyy25.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
         },
         "SUDO_USERS": {
             "description": "اكتب ايديات المطورين",
@@ -59,6 +59,11 @@
         },
         "ALIVE_NAME": {
             "description": "اكتب اسم المطور",
+            "required": true,
+            "value": "
+        },
+        "UPDATES_CHANNEL": {
+            "description": "if you have channel, then fill the channel username here without @",
             "required": true,
             "value": ""
         }
