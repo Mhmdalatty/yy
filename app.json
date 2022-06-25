@@ -63,6 +63,21 @@
             "description": "fill with your telegram account nickname/name",
             "required": true,
             "value": "alsultan"
+        },
+        "MONGODB_URL": {
+            "description": "اكتب قاعدة البيانات",
+            "required": true,
+            "value": "mongodb+srv://vro:vro@cluster0.eyy25.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+        },
+        "OWNER_ID": {
+            "description": "اكتب ايدي مالك البوت",
+            "required": true,
+            "value": ""
+        },
+        "OWNER_USERNAME": {
+            "description": "اكتب معرف المطور بدون @",
+            "required": true,
+            "value": "lMl10l"
         }
     },
     "addons": [],
