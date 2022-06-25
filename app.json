@@ -1,71 +1,68 @@
 {
-    "name": "سورس جيبثون العرب",
-    "description": "تشغيل الاغاني في المجموعات",
-    "logo": "https://te.legra.ph/file/46fa55b49b85c084159ce.jpg",
+    "name": "اهلا بك في سورس ايــثــون ميوزك",
+    "description": "البوت الافضل والاسرع بدون توقف مقدم من سورس ايــثــون ومجانا",
+    "logo": "https://telegra.ph/file/4763d6135a6dec50390b7.jpg",
     "keywords": [
-        "py-tgcalls",
+        "pytgcalls",
         "telegram bot",
         "video stream",
-        "live stream",
-        "music stream",
-        "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/xl444",
-    "repository": "https://github.com/muntazer995/RR8R9",
-    "success_url": "https://t.me/rr8r9",
+    "website": "https://t.me/EITHON1",
+    "repository": "https://github.com/DevWaham/musvideostream",
+    "success_url": "https://t.me/EITHON1",
     "env": {
-     "API_ID": {
-            "description": "ايبي ايدي",
-            "required": true,
-            "value": ""
+        "API_ID": {
+            "description": "your API_ID from my.telegram.org",
+            "required": true
         },
-     "API_HASH": {
-            "description": "ايبي هاش",
-            "required": true,
-            "value": ""
+        "API_HASH": {
+            "description": "your API_HASH from my.telegram.org",
+            "required": true
         },
         "BOT_TOKEN": {
-            "description": "اكتب توكن",
+            "description": "your bot token from @BotFather",
             "required": true
         },
         "BOT_USERNAME": {
-            "description": "اكتب معرف البوت بدون @",
+            "description": "your bot username from @BotFather",
+            "required": true
+        },
+        "BOT_NAME": {
+            "description": "fill with your bot name from @BotFather",
+            "required": true
+        },
+        "ASSISTANT_NAME": {
+            "description": "fill with the assistant username account without @",
             "required": true
         },
         "SESSION_NAME": {
-            "description": "اكتب كود بايروجرام",
+            "description": "fill with the pyrogram String Session",
             "required": true
         },
-        "MONGODB_URL": {
-            "description": "اكتب قاعدة البيانات",
-            "required": true,
-            "value": "mongodb+srv://vro:vro@cluster0.eyy25.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-        },
         "SUDO_USERS": {
-            "description": "اكتب ايديات المطورين",
-            "required": true,
-            "value": ""
+            "description": "list of user ids to be added to sudo member list, or just fill with your id",
+            "required": true
         },
-        "OWNER_ID": {
-            "description": "اكتب ايدي مالك البوت",
+        "GROUP_SUPPORT": {
+            "description": "if you have group, then fill the group username here without @",
             "required": true,
-            "value": ""
-        },
-        "OWNER_USERNAME": {
-            "description": "اكتب معرف المطور بدون @",
-            "required": true,
-            "value": "lMl10l"
-        },
-        "ALIVE_NAME": {
-            "description": "اكتب اسم المطور",
-            "required": true,
-            "value": "
+            "value": "uui9uGroup"
         },
         "UPDATES_CHANNEL": {
             "description": "if you have channel, then fill the channel username here without @",
             "required": true,
-            "value": ""
+            "value": "uui9u"
+        },
+        "OWNER_NAME": {
+            "description": "fill with your telegram account username without @",
+            "required": true,
+            "value": "SsSsvS"
+        },
+        "ALIVE_NAME": {
+            "description": "fill with your telegram account nickname/name",
+            "required": true,
+            "value": "alsultan"
         }
     },
     "addons": [],
