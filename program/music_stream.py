@@ -40,7 +40,7 @@ from driver.utils import bash, remove_if_exists, from_tg_get_msg
 from driver.database.dbqueue import add_active_chat, remove_active_chat, music_on
 from driver.decorators import require_admin, check_blacklist
 
-from config import BOT_USERNAME, IMG_1, IMG_2, IMG_5
+from config import BOT_USERNAME, IMG_1, IMG_2, IMG_5, BOT_TOKEN, UPDATES_CHANNE,
 from asyncio.exceptions import TimeoutError
 from youtubesearchpython import VideosSearch
 
@@ -191,9 +191,9 @@ async def audio_stream(c: Client, m: Message):
     if do.count("left") or do.count("Bad Request: user not found"):
         await m.reply_text(f" ** ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉**\n@{UPDATES_CHANNEL}\n» **اشتࢪك بقناة البوت لتستطيع تشغيل الاغاني**")
     else:
-    replied = m.reply_to_message
-    chat_id = m.chat.id
-    user_id = m.from_user.id
+        replied = m.reply_to_message
+        chat_id = m.chat.id
+        user_id = m.from_user.id
     if m.sender_chat:
         return await m.reply_text(
             "you're an __Anonymous__ user !\n\n» revert back to your real user account to use this bot."
