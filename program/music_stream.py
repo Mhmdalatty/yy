@@ -192,6 +192,14 @@ async def audio_stream(c: Client, m: Message):
         replied = m.reply_to_message
         chat_id = m.chat.id
         user_id = m.from_user.id
+        keyboard = InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(text="• القائمه", callback_data="cbmenu"),
+                    InlineKeyboardButton(text="•اغلاق", callback_data="cls"),
+                ]
+            ]
+        )
     if m.sender_chat:
         return await m.reply_text(
             "you're an __Anonymous__ user !\n\n» revert back to your real user account to use this bot."
